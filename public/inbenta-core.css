@@ -1,0 +1,118 @@
+.inb-hidden {
+  display: none !important; }
+
+.inbenta-bot__bubble .header__actions__icon:before, .inbenta-bot__chat .header__actions__icon:before {
+  content: "e" !important; }
+
+.inbenta-bot__bubble .header__actions__icon--reset-session:before, .inbenta-bot__chat .header__actions__icon--reset-session:before {
+  content: "k" !important; }
+
+.inbenta-bot a {
+  color: #f85349 !important; }
+
+.inbenta-bot a:hover {
+  color: #f85357 !important; }
+
+.inbenta-bot .ui-draggable {
+  bottom: 14px !important;
+  right: 0px !important; }
+
+.inbenta-bot__powered {
+  display: none !important; }
+
+.inbenta-bot__launcher {
+  background-color: #f85349 !important;
+  border-radius: 35px !important;
+  margin-bottom: -15px;
+  margin-right: -9px;
+  height: 46px !important;
+  width: 120px;
+  margin-left: 0px !important; }
+  .inbenta-bot__launcher__image {
+    background-size: 70% 100% !important; }
+  .inbenta-bot__launcher__text {
+    margin-left: 0px !important; }
+
+.inbenta-bot__chat {
+  border-radius: 0.57143rem !important;
+  -webkit-box-shadow: 0 0 0.42857rem 0 rgba(0, 0, 0, 0.2) !important;
+          box-shadow: 0 0 0.42857rem 0 rgba(0, 0, 0, 0.2) !important;
+  background: rgba(255, 255, 255, 0.98) !important;
+  width: 342px !important;
+  background-color: #1F73B7 !important;
+  height: 550px !important; }
+  .inbenta-bot__chat .content__buttons--multiple-choise .inbenta-bot-button {
+    color: #f85349 !important; }
+  .inbenta-bot__chat__confirmation .confirmation-box__icon {
+    color: #f85349 !important;
+    background-color: #e9ebed !important; }
+  .inbenta-bot__chat__confirmation .confirmation-box__buttons .inbenta-bot-button {
+    background-color: #f85349 !important; }
+  .inbenta-bot__chat .header__title {
+    font-family: ystem-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, Arial, sans-serif !important;
+    font-size: 1.07143rem !important;
+    letter-spacing: 0.02143rem !important;
+    line-height: 1.2 !important;
+    padding-right: 2.14286rem !important;
+    font-weight: 700 !important;
+    width: 300px !important; }
+  .inbenta-bot__chat .header__actions__icon--reset-session:before {
+    content: "k" !important; }
+  .inbenta-bot__chat .footer__form {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important; }
+    .inbenta-bot__chat .footer__form__button {
+      color: #f85349 !important; }
+      .inbenta-bot__chat .footer__form__button .inbenta-bot-icon--send:before {
+        content: "7" !important; }
+    .inbenta-bot__chat .footer__form__counter-content {
+      display: none !important; }
+  .inbenta-bot__chat .body__wrapper {
+    background-color: #f5f5fa !important; }
+  .inbenta-bot__chat__header {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.16), 0 0 0 0 rgba(0, 0, 0, 0.08) !important;
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.16), 0 0 0 0 rgba(0, 0, 0, 0.08) !important;
+    background-color: #f85349 !important;
+    padding: 14px 18px !important; }
+  .inbenta-bot__chat .messages__message .inbenta-bot-icon--avatar {
+    background-image: url("https://static-or02.inbenta.com/be58d985e277f6b68e1f38f34d036696dddb7b43fa6ac6725dd763a949a2f789/avatar.png");
+    background-color: transparent !important;
+    background-repeat: no-repeat !important;
+    color: transparent !important;
+    height: 45px !important;
+    width: 35px !important;
+    background-position-x: -4px !important;
+    background-position-y: -5px !important;
+    padding-left: 15px !important;
+    padding-right: 20px !important; }
+  .inbenta-bot__chat .messages__message__content {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.1) !important;
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.1) !important; }
+  .inbenta-bot__chat .messages__message--sent .messages__message__content {
+    background-color: #35C3BF !important;
+    color: #000 !important; }
+  .inbenta-bot__chat .messages__message--received .messages__message__avatar {
+    background-color: #87929d !important; }
+
+.inbenta-bot__bubble {
+  border-radius: 0.57143rem !important;
+  -webkit-box-shadow: 0 0 0.42857rem 0 rgba(0, 0, 0, 0.2) !important;
+          box-shadow: 0 0 0.42857rem 0 rgba(0, 0, 0, 0.2) !important;
+  background: rgba(255, 255, 255, 0.98) !important;
+  background: #1F73B7 !important;
+  height: 550px !important; }
+  .inbenta-bot__bubble .header__actions__icon:before {
+    content: "k" !important; }
+  .inbenta-bot__bubble .header__actions__icon--reset-session:before {
+    content: "e" !important; }
+  .inbenta-bot__bubble__header {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.16), 0 0 0 0 rgba(0, 0, 0, 0.08) !important;
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.16), 0 0 0 0 rgba(0, 0, 0, 0.08) !important; }
+
+.inbenta-bot-rating__content__buttons .inbenta-bot-button {
+  color: #f85349 !important; }
+
+.inbenta-bot-rating__content__comment .comment__wrapper .inbenta-bot-button {
+  background: #f85349; }
+  .inbenta-bot-rating__content__comment .comment__wrapper .inbenta-bot-button:hover {
+    background: #fa817a !important; }
