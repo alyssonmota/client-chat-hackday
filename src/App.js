@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
-import Chat from './Chat';
 import ChatWidget from './ChatWidget';
-import UserForm from './UserForm';
 
 import 'react-chat-widget/lib/styles.css';
 
