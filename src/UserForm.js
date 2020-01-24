@@ -1,32 +1,47 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 class UserForm extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { value: '' };
+        this.state = { name: '', email: '' };
 
-        this.handleChange = this.handleChange.bind(this);
-        this.handleSubmit = this.handleSubmit.bind(this);
+        this.nameHandleChange = this.nameHandleChange.bind(this);
+        this.emailHandleChange = this.emailHandleChange.bind(this);
+        this.onButtonClicked = this.onButtonClicked.bind(this);
     }
 
-    handleChange(event) {
-        this.setState({ value: event.target.value });
+    nameHandleChange(event) {
+        this.setState({ name: event.target.value });
+        console.log('name: ' + this.state.name);
     }
 
-    handleSubmit(event) {
-        alert('A name was submitted: ' + this.state.value);
-        event.preventDefault();
+    emailHandleChange(event) {
+        this.setState({ email: event.target.value });
+        console.log('email: ' + this.state.email);
+    }
+
+    onButtonClicked(event) {
+
     }
 
     render() {
         return (
-            <form>
-                <h1>Hello</h1>
-                <p>Enter your name:</p>
-                <input
-                    type="text"
-                />
-            </form>
+            // <div>
+
+            //     <form>
+            //         <p>Enter your name:</p>
+            //         <input type="text" id="nameInput" value={this.state.name} onChange={this.nameHandleChange}
+            //         />
+            //         <p>Enter your email:</p>
+            //         <input type="text" id="emailInput" value={this.state.email} onChange={this.emailHandleChange}
+            //         />
+            //     </form>
+            //     <button onClick={this.onButtonClicked}>
+            //         Submit
+            //     </button>
+            // </div>
+
+            <div></div>
         );
     }
 }

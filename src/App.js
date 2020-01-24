@@ -10,8 +10,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <UserForm></UserForm>
-        <ChatWidget></ChatWidget>  
+        <ChatWidget></ChatWidget>
+
       </header>
     </div>
   );
